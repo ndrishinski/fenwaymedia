@@ -13,3 +13,15 @@
  *= require_tree .
  *= require_self
  */
+
+ body {
+     background-color: bisque;
+ }
+ /* this class is found on the ABOUT page */
+ .whatevs {
+     background-color: blueviolet;
+ }
+
+ h1 {
+     color: khaki;
+ }
