@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>FenwayStuff</title>
+    <title>Fenway Media</title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
   </head>
 
   <nav class="navbar navbar-light bg-light">
-  <ul class="nav col-sm-5">
+  <a class="navbar-brand"><%= image_tag "fenway.jpg", width: 80, height: 80, alt: "profile image", class: 'nav-img' %> </a>
+
+  <ul class="nav">
   <li class="nav-item">
     <a class="nav-link" href="/">Home</a>
   </li>
@@ -30,7 +34,6 @@
   </li>
 </ul> 
 </nav>
-
   <body>
     <%= yield %>
   </body>

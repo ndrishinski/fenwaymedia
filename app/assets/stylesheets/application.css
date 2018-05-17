@@ -17,15 +17,29 @@
  body {
      background-image: url(bodyBackgroundImage.jpg);
      background-attachment: fixed;
-     background-size: 80%;
+     background-size: 100%;
      background-repeat: no-repeat;
      background-position: 50% 50%;
      background: linear-gradient(gray, white));
  }
+
  .background {
      opacity: 0.5;
  }
+
  /* this class is found on the ABOUT page */
  .whatevs {
      background-color: blueviolet;
+ }
+
+ #card1 {
+     justify-content: center;
+ }
+
+ .fas {
+     font-size: 40px;
+ }
+
+ .btn {
+     background-color: white;
  }
