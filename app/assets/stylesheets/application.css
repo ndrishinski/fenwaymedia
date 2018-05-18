@@ -43,3 +43,58 @@
  .btn {
      background-color: white;
  }
+
+ #theicons {
+    font-size: 60px;
+    align-self: center;
+ }
+
+ .fab {
+     margin: 10px;
+ }
+
+ .movedown {
+     margin-top: 40px; 
+ }
+
+ #description {
+     align-self: center;
+ }
+
+ #moveplease {
+     margin-top: 30px; 
+ }
+
+ .newbackground {
+    background-image: url(board.jpg)!important;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background: linear-gradient(gray, white));
+ }
+
+ #backit {
+    margin-top: 10%;
+ }
+
+ .nav-img {
+     border-radius: 10px;
+     box-shadow: 2px 2px 2px black;
+ }
+
+ .success {
+     color: rgb(6, 247, 6);
+ }
+
+ .bouncit {
+     margin-top: 10px;
+ }
+
+ #centerme {
+     align-self: center;
+ }
+
+ #centerit {
+    align-self: center;
+ }
