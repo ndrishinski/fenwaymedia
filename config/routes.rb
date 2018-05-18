@@ -1,15 +1,15 @@
 Rails.application.routes.draw do
   root to: 'pages#home'
 
-  get 'pages/schedule'
+  get 'schedule', to: 'pages#schedule'
 
-  get 'pages/services'
+  get 'services', to:'pages#services'
 
-  get 'pages/portfolio'
+  get 'portfolio', to: 'pages#portfolio'
 
-  get 'pages/contact'
+  get 'contact', to: 'pages#contact'
 
-  get 'pages/about'
+  get 'about', to: 'pages#about'
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
