@@ -24,7 +24,7 @@ nav {
      background-size: 100%;
      background-repeat: no-repeat;
      background-position: 50% 50%;
-     background: linear-gradient(gray, white));
+     background: linear-gradient(gray, white);
  }
 
  .background {
@@ -75,7 +75,7 @@ nav {
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: 50% 50%;
-    background: linear-gradient(gray, white));
+    background: linear-gradient(gray, white);
  }
 
  #backit {
