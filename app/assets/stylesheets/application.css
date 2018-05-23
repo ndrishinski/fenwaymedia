@@ -24,7 +24,6 @@ nav {
      background-size: 100%;
      background-repeat: no-repeat;
      background-position: 50% 50%;
-     background: linear-gradient(gray, white);
  }
 
  .background {
@@ -35,9 +34,11 @@ nav {
  .whatevs {
      background-color: blueviolet;
  }
-
+.card {
+    margin: 0 auto;
+}
  #card1 {
-     justify-content: center;
+    margin: 0 auto;
  }
 
  .fas {
@@ -63,14 +64,20 @@ nav {
 
  #description {
      align-self: center;
+     background: rgba(204, 204, 204, 0.5);
+    color: white;
  }
+#services {
+    background: rgba(204, 204, 204, 0.5);
+    color: white;
 
+}
  #moveplease {
      margin-top: 30px; 
  }
 
  .newbackground {
-    background-image: url(board.jpg)!important;
+    background-image: url(stickyNoteImage.jpg)!important;
     background-attachment: fixed;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -97,10 +104,14 @@ nav {
 
  #centerme {
      align-self: center;
+     background: rgba(204, 204, 204, 0.5);
+     color: white;
  }
 
  #centerit {
     align-self: center;
+    background: rgba(204, 204, 204, 0.5);
+    color: white;
  }
 
  footer {
@@ -115,4 +126,9 @@ nav {
 
  button {
      box-shadow: 1px 1px 1px black;
+ }
+ 
+ .opaqueBackground {
+    background: rgba(204, 204, 204, 0.5);
+    color: white; 
  }
